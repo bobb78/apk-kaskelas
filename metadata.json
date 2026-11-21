@@ -1,0 +1,6 @@
+{
+  "name": "Kas Kelas",
+  "description": "Aplikasi pencatatan kas kelas dengan pencatatan pemasukan, pengeluaran, dan saldo real-time berdesain biru modern.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

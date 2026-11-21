@@ -1,11 +1,23 @@
-<div align="center">
+# Kas Kelas
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Aplikasi manajemen keuangan dan uang kas kelas berbasis Android, dibangun dengan **Kotlin**, **Jetpack Compose**, **Material Design 3**, dan **Room Database**.
 
-  <h1>Built with AI Studio</h2>
+---
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 📱 Download & Pasang APK
+Pengguna Android dapat langsung mengunduh file APK siap pasang dari halaman [Releases](../../releases):
+1. Buka tab **Releases** di repositori GitHub ini.
+2. Unduh file **`KasKelas-v1.0.apk`** pada bagian **Assets** rilis terbaru.
+3. Buka file APK di HP Android Anda dan pilih **Pasang (Install)** (izinkan *Install unknown apps* jika diminta).
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+---
 
-</div>
+## ✨ Fitur Utama
+- 💵 **Dashboard Saldo Real-Time & Pencatatan Transaksi**: Menampilkan total saldo terkini, total pemasukan, total pengeluaran, pencarian, serta filter jenis & kategori transaksi.
+- 📝 **Form Transaksi Lengkap**: Pilihan pemasukan/pengeluaran, input nominal cepat, deskripsi, nama anggota/PIC, kategori, catatan, dan pemilih tanggal (*Date Picker*).
+- 👥 **Anggota Kelas, Impor CSV & Tagihan WhatsApp**: Tambah anggota massal lewat file `.csv` atau tempel daftar teks, pantau siapa yang belum bayar tiap bulan, tandai lunas 1-ketuk, dan bagikan daftar tagihan langsung ke grup WhatsApp kelas.
+- 📊 **Grafik Arus Kas & Laporan**: Visualisasi ringkasan pemasukan vs pengeluaran bulanan, tren saldo, serta rincian persentase kategori.
+- 📄 **Ekspor & Cetak Laporan PDF**: Ekspor riwayat transaksi beserta daftar anggota lunas/belum lunas ke dokumen PDF siap cetak atau bagikan.
+- 💾 **Penyimpanan Lokal Room Database**: Seluruh catatan kas tersimpan aman secara offline di perangkat.
+- ☁️ **Backup & Pulihkan Data**: Dukungan sinkronisasi ke Google Drive maupun ekspor/impor **file backup JSON lokal** (*offline*) untuk memudahkan pindah HP atau instal ulang.
+- 🌗 **Mode Terang & Mode Gelap**: Tombol ganti tema langsung di bar atas untuk kenyamanan mata di siang atau malam hari.
